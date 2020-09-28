@@ -1,0 +1,25 @@
+// not complete 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(int argc, const char * argv[]) {
+    char num;
+    srand( time(0));
+  
+    int secret_number = rand()%100 +1;
+    int s1 =rand()%100 +1;
+    int s2 = rand()%100 +1;
+    int s3 = rand()%100 +1;
+    int s4 = rand()%100 +1;
+    printf("enter a number between 1 and 100: ");
+    scanf("%d", &num);
+      printf("secret number = %d\n",secret_number);
+    printf("%d %d %d %d\n", s1,s2,s3,s4);
+    while ( num < 1 || num > 100);
+    if ( num == secret_number ) { printf("correct guess\n"); }
+    else { printf("wrong guess\n");}
+    
+    return 0;
+}
