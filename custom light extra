@@ -1,6 +1,11 @@
 void Custom Light {
 
+int choice;
+int Userprofile;
 
+
+
+//Defined Colors (different RGB (red, green, blue) values for colors
 const byte RED[] = {
   255, 0, 0};
 const byte ORANGE[] = {
@@ -11,10 +16,6 @@ const byte GREEN[] = {
   0, 255, 0};
 const byte BLUE[] = {
   0, 0, 255};
-const byte INDIGO[] = {
-  4, 0, 19};
-const byte VIOLET[] = {
-  23, 0, 22};
 const byte CYAN[] = {
   0, 255, 255};
 const byte MAGENTA[] = {
@@ -23,7 +24,54 @@ const byte WHITE[] = {
   255, 255, 255};
 const byte BLACK[] = {
   0, 0, 0};
-const byte PINK[] = {
-  158, 4, 79}; 
-  
+ 
   }
+
+
+switch (lights)
+  case red:
+  if(choice == red ) { Userprofile == RED }
+  break;
+  
+  case orange:
+  if(choice == orange ) { Userprofile == ORANGE }
+  break;
+  
+  case yellow:
+  if(choice == yellow ) { Userprofile == YELLOW }
+  break;
+  
+  case green:
+  if(choice == green ) { Userprofile == GREEN }
+  break;
+  
+  case blue:
+  if(choice == blue ) { Userprofile == BLUE }
+  break;
+  
+  
+ case cyan:
+  if(choice == cyan ) { Userprofile == CYAN }
+  break;
+  
+
+ case magneta:
+  if(choice == magneta ) { Userprofile == MAGNETA }
+  break;
+  
+   case white:
+  if(choice == white ) { Userprofile == WHITE }
+  break;/
+  
+  
+   case black:
+  if(choice == black ) { Userprofile == BLACK }
+  break;
+
+
+
+
+
+
+
+
