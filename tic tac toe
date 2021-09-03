@@ -40,33 +40,33 @@ char mark;
     else { printf("not valid");}
                
                     
-                                   if (Box[1] == Box[2] && Box[2] == Box[3])
-                                   {break;}
+     if (Box[1] == Box[2] && Box[2] == Box[3])
+        {break;}
                                                                    
-                                       else if (Box[4] == Box[5] && Box[5] == Box[6])
-                                                                           {break;}
+         else if (Box[4] == Box[5] && Box[5] == Box[6])
+         {break;}
                                                                    
-                                       else if (Box[7] == Box[8] && Box[8] == Box[9])
-                                                                            {break;}
+         else if (Box[7] == Box[8] && Box[8] == Box[9])
+         {break;}
                                                                    
-                                       else if (Box[1] == Box[4] && Box[4] == Box[7])
-                                                                           {break;}
+         else if (Box[1] == Box[4] && Box[4] == Box[7])
+         {break;}
+          
+         else if (Box[2] == Box[5] && Box[5] == Box[8])
+          {break;}
                                                                    
-                                       else if (Box[2] == Box[5] && Box[5] == Box[8])
-                                                                           {break;}
+         else if (Box[3] == Box[6] && Box[6] == Box[9])
+         {break;}
                                                                    
-                                       else if (Box[3] == Box[6] && Box[6] == Box[9])
-                                                                           {break;}
+         else if (Box[1] == Box[5] && Box[5] == Box[9])
+         {break;}
                                                                    
-                                       else if (Box[1] == Box[5] && Box[5] == Box[9])
-                                                                            {break;}
-                                                                   
-                                       else if (Box[3] == Box[5] && Box[5] == Box[7])
-                                           {break;}
-                               }
-                               printf("\n \n");
-                               printf("you won player %d\n",player);
-                               printf("\n \n"); }
+         else if (Box[3] == Box[5] && Box[5] == Box[7])
+         {break;}
+          }
+            printf("\n \n");
+            printf("you won player %d\n",player);
+            printf("\n \n"); }
                            
                                    
 int Board() {
@@ -122,7 +122,7 @@ int game() {
     return 0 ;
 }
 
-                                                          { MOST PERFECT VERSION }                     <VERSION_2>
+      { MOST PERFECT VERSION }                     <VERSION_2>
                                                                        
                                                                        
                                                                        
